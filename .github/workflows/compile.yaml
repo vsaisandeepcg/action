@@ -19,7 +19,7 @@ jobs:
       - name: Set up .NET
         uses: actions/setup-dotnet@v2
         with:
-          dotnet-version: '7.0'  # Change to your .NET version
+          dotnet-version: '7.0'
 
       - name: Restore dependencies
         run: dotnet restore
